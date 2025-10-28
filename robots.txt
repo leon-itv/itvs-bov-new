@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow:
+
+Sitemap: https://www.itvstudiosbovingdon.co.uk/sitemap.xml

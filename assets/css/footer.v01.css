@@ -1,0 +1,190 @@
+/* HEADER */
+header .navbar-default {
+	background-color: #000;
+	border-color: #000;
+}
+header .navbar-static-top {
+	border-width: 0 0 1px;
+}
+header .navbar {
+	min-height: 56px;
+	margin-bottom: 0;
+	color: #fff;
+	border: none;
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+}
+header .navbar a {
+	color: #fff;
+}
+header .navbar a:hover {
+	color: #fff;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+header .navbar-default .navbar-toggle {
+	border: none;
+}
+header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-toggle:hover {
+	background: none;
+}
+header .navbar .logo {
+	margin: 12px 0;
+}
+header .navbar .item a:hover {
+	color: #a3c22b
+}
+header .navbar .details {
+	text-align: right;
+	padding-top: 14px;
+}
+header .navbar .details .item {
+	font-size: 17px;
+	padding: 0 6px;
+}
+header .navbar .details .item.links {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+header .navbar-nav {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+header .navbar-nav li {
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #fff;
+	text-align: right;
+}
+header .navbar-default .navbar-nav > li > a {
+	color: #000;
+	background-color: #fff;
+	transition: none;
+	padding: 15px 15px 12px 15px;
+}
+header .navbar-default .navbar-nav > li > a:hover {
+	color: #a3c22b;
+	background-color: #000;
+}
+header .navbar-default .navbar-nav > .active > a {
+	background-color: #e0e0e0;
+	color: #a3c22b;
+}
+header .navbar-default .navbar-nav > .active > a:hover {
+	background-color: #000;
+	color: #a3c22b;
+}
+.navbar-toggle {
+	float: none;
+	margin-right: 0;
+}
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-nav {
+	float: none!important;
+}
+.navbar-nav>li {
+	float: none;
+}
+.collapse.in {
+	display: block!important;
+}
+header .branding {
+	text-align: left;
+}
+@media (min-width: none) {
+header .navbar .details .item {
+	padding-right: 0;
+	padding-left: 20px;
+}
+}
+@media (max-width: 767px) {
+header .branding {
+	text-align: center;
+	margin-top: 10px;
+}
+header .navbar .details {
+	text-align: center;
+	padding-top: 0;
+	margin-bottom: 10px;
+}
+}
+@media (min-width: 768px) {
+.navbar-toggle {
+    display: inline-block;
+	float: right;
+	padding: 6px 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+header .navbar-default .navbar-nav > li > a {
+	padding: 15px 30px 12px 15px;
+}
+}
+#navbar { /* Fix for bootstrap toggle and parallax conflict */
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* FOOTER */
+footer {
+	background-color: #000;
+	color: #9c9b9b;
+	padding: 20px 0 20px 0;
+	font-size: 11px;
+	line-height: 19px;
+    text-align: left;
+}
+footer .col-sm-3 {
+	padding: 0;
+}
+footer .column {
+	border-right: 1px solid #9c9b9b;
+	padding: 10px 15px 5px 15px;
+}
+footer .column.last {
+	border-right: none;
+}
+footer .address {
+	color: #fff;
+}
+footer .icons li a {
+	font-size: 24px;
+	line-height: 29px;
+	margin-right: -5px;
+}
+footer .title {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 10px;
+	margin: 0;
+}
+footer a,
+footer a:active,
+footer a:visited {
+	color: #9c9b9b;
+}
+footer a:hover {
+	color: #fff;
+}
+footer .support {
+	float: left;
+	margin: 12px 8px 0 0;
+}
+footer .legal {
+	margin-top: 10px;
+}
+@media (max-width: 767px) {
+footer .column, footer .column.last {
+	padding-top: 6px;
+	padding-left: 15px;
+	border-right: none;
+}
+}
